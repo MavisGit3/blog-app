@@ -7,7 +7,6 @@ import Link from "next/link"
 import { getAllPosts } from "@/src/components/blog-data"
 import SearchBar from "@/src/components/search-bar"
 import { Skeleton } from "@/components/ui/skeleton"
-// import NewsletterForm from "@/src/components/newsletter-form"
 
 function PostCardSkeleton() {
   return (
@@ -81,7 +80,7 @@ export default function Home() {
           Discover insights, tutorials, and stories about web development, technology, and more.
         </p>
         <div className="flex gap-4 justify-center">
-          <Button asChild size="lg">
+          <Button asChild size="lg" className="bg-blue-700 hover:bg-blue-800 text-white">
             <Link href="/blog">Browse Posts</Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
@@ -110,15 +109,6 @@ export default function Home() {
           <BlogPosts />
         </Suspense>
       </section>
-
-      {/* Newsletter Section */}
-      {/* <section className="mt-16 py-12 bg-muted rounded-lg text-center">
-        <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
-        <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-          Subscribe to get notified about new posts and updates.
-        </p>
-        <NewsletterForm />
-      </section> */}
     </div>
   )
 }

@@ -127,10 +127,10 @@ export default function ContactPage() {
                 <div>
                   <p className="font-medium">Email</p>
                   <a
-                    href="mailto:mavis@example.com"
+                    href="mailto:mavisogodu@gmail.com.com"
                     className="text-sm text-muted-foreground hover:text-primary hover:underline"
                   >
-                    mavis@example.com
+                    mavisogodu@gmail.com
                   </a>
                 </div>
               </div>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                 <MapPin className="h-5 w-5 text-muted-foreground" />
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-sm text-muted-foreground">San Francisco, CA</p>
+                  <p className="text-sm text-muted-foreground">Lagos, Nigeria</p>
                 </div>
               </div>
 
@@ -167,34 +167,34 @@ export default function ContactPage() {
                 <p className="text-sm">
                   <strong>Twitter:</strong>{" "}
                   <a
-                    href="https://twitter.com/mavisayikpo"
+                    href="https://twitter.com/mavisogodu3"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    @mavisayikpo
+                    @mavisogodu3
                   </a>
                 </p>
                 <p className="text-sm">
                   <strong>GitHub:</strong>{" "}
                   <a
-                    href="https://github.com/mavisayikpo"
+                    href="https://github.com/MavisGit3"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    github.com/mavisayikpo
+                    github.com/MavisGit3
                   </a>
                 </p>
                 <p className="text-sm">
                   <strong>LinkedIn:</strong>{" "}
                   <a
-                    href="https://linkedin.com/in/mavisayikpo"
+                    href="https://www.linkedin.com/in/mavis-ogodu-471528179/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    linkedin.com/in/mavisayikpo
+                    linkedin.com/in/mavis-ogodu-471528179/
                   </a>
                 </p>
               </div>

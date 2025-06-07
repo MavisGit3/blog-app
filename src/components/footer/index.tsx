@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { Github, Twitter, Linkedin, Mail,  } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-// import NewsletterForm from "@/components/newsletter-form"
 import NewsletterForm from "../newsletter-form"
 
 export default function Footer() {
@@ -23,7 +22,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
+              <div className="h-8 w-8 rounded-lg bg-blue-700 flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-sm">MB</span>
               </div>
               <span className="font-bold text-xl">Modern Blog</span>
@@ -85,30 +84,25 @@ export default function Footer() {
             <h3 className="font-semibold">Connect</h3>
             <div className="flex space-x-2">
               <Button variant="ghost" size="sm" asChild>
-                <Link href="https://twitter.com/mavisayikpo" target="_blank">
+                <Link href="https://twitter.com/mavisogodu3" target="_blank">
                   <Twitter className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <Link href="https://github.com/mavisayikpo" target="_blank">
+                <Link href="https://github.com/MavisGit3" target="_blank">
                   <Github className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <Link href="https://linkedin.com/in/mavisayikpo" target="_blank">
+                <Link href="https://www.linkedin.com/in/mavis-ogodu-471528179/" target="_blank">
                   <Linkedin className="h-4 w-4" />
                 </Link>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <Link href="mailto:mavis@example.com">
+                <Link href="mailto:mavisogodu@mail.com.com">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
-              {/* <Button variant="ghost" size="sm" asChild>
-                <Link href="/rss.xml">
-                  <Rss className="h-4 w-4" />
-                </Link>
-              </Button> */}
             </div>
           </div>
         </div>

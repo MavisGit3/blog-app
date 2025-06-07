@@ -49,7 +49,7 @@ const samplePosts: BlogPost[] = [
       <h2 id="conclusion">Conclusion</h2>
       <p>Next.js 15 represents a significant step forward in React development. With its improved performance, better developer experience, and powerful new features, it's the perfect time to start your next project with Next.js 15.</p>
     `,
-    date: "2024-01-15",
+    date: "2025-01-15",
     author: "Mavis Ogodu Ayikpo",
     categories: ["Next.js", "React", "Web Development"],
     tags: ["nextjs", "react", "javascript", "tutorial"],
@@ -94,7 +94,7 @@ const samplePosts: BlogPost[] = [
       <h2 id="conclusion">Conclusion</h2>
       <p>Mastering these advanced TypeScript patterns will help you write more maintainable and type-safe code. Keep practicing and exploring the rich type system that TypeScript provides.</p>
     `,
-    date: "2024-01-10",
+    date: "2025-01-10",
     author: "Mavis Ogodu Ayikpo",
     categories: ["TypeScript", "JavaScript", "Programming"],
     tags: ["typescript", "javascript", "types", "advanced"],
@@ -147,7 +147,7 @@ const samplePosts: BlogPost[] = [
       <h2 id="conclusion">Conclusion</h2>
       <p>CSS Grid and Flexbox together provide all the tools you need to create modern, responsive layouts. Practice with different combinations to master these powerful layout systems.</p>
     `,
-    date: "2024-01-05",
+    date: "2025-02-05",
     author: "Mavis Ogodu Ayikpo",
     categories: ["CSS", "Web Development", "Design"],
     tags: ["css", "grid", "flexbox", "responsive"],

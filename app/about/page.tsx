@@ -51,7 +51,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 ">
                   <Badge>React</Badge>
                   <Badge>Next.js</Badge>
                   <Badge>TypeScript</Badge>
@@ -121,25 +121,25 @@ export default function AboutPage() {
             <CardContent>
               <div className="flex flex-wrap gap-4">
                 <Button variant="outline" asChild>
-                  <Link href="mailto:mavis@example.com">
+                  <Link href="mailto:mavisogodu@gmail.com.com">
                     <Mail className="h-4 w-4 mr-2" />
                     Email
                   </Link>
                 </Button>
                 <Button variant="outline" asChild>
-                  <Link href="https://twitter.com/mavisayikpo" target="_blank">
+                  <Link href="https://twitter.com/mavisogodu3 " target="_blank">
                     <Twitter className="h-4 w-4 mr-2" />
                     Twitter
                   </Link>
                 </Button>
                 <Button variant="outline" asChild>
-                  <Link href="https://github.com/mavisayikpo" target="_blank">
+                  <Link href="https://github.com/MavisGit3" target="_blank">
                     <Github className="h-4 w-4 mr-2" />
                     GitHub
                   </Link>
                 </Button>
                 <Button variant="outline" asChild>
-                  <Link href="https://linkedin.com/in/mavisayikpo" target="_blank">
+                  <Link href="https://www.linkedin.com/in/mavis-ogodu-471528179/" target="_blank">
                     <Linkedin className="h-4 w-4 mr-2" />
                     LinkedIn
                   </Link>

@@ -5,7 +5,6 @@ import type React from "react"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-// import { subscribeToNewsletter } from "@/lib/actions"
 import { subscribeToNewsletter } from "../actions"
 import { toast } from "sonner"
 
@@ -49,7 +48,7 @@ export default function NewsletterForm() {
         disabled={isSubmitting}
         aria-label="Email address for newsletter"
       />
-      <Button type="submit" disabled={isSubmitting}>
+      <Button type="submit" disabled={isSubmitting} className="text-white bg-blue-700 hover:bg-blue-800">
         {isSubmitting ? "Subscribing..." : "Subscribe"}
       </Button>
     </form>

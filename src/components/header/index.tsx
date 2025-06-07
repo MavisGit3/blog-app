@@ -27,7 +27,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
+            <div className="h-8 w-8 rounded-lg  bg-blue-700 flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">MB</span>
             </div>
             <span className="font-bold text-xl">Modern Blog</span>
@@ -40,8 +40,8 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
-                  pathname === item.href ? "text-primary" : "text-muted-foreground",
+                  "text-sm font-medium transition-colors hover:text-blue-800",
+                  pathname === item.href ? "text-blue-700" : "text-muted-foreground",
                 )}
               >
                 {item.name}

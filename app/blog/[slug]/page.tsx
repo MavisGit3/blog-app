@@ -116,7 +116,7 @@ export default async function BlogPost({ params }: Props) {
           {post.tags && post.tags.length > 0 && (
             <div className="mt-8 pt-8 border-t">
               <h3 className="text-lg font-semibold mb-4">Tags</h3>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 ">
                 {post.tags.map((tag) => (
                   <Badge key={tag} variant="outline" asChild>
                     <Link href={`/blog?search=${encodeURIComponent(tag)}`}>#{tag}</Link>
